@@ -2,46 +2,46 @@
   "data": [
     {
       "title": "LAYUI基础",
-      "icon": "&#xe620;",
+      "icon": "fa fa-home",
       "child": [
         {
           "title": "按钮",
-          "icon": "&#xe621;",
+          "icon": "fa fa-book",
           "id" :101,
           "url": "demo/btn.html"
         },{
           "title": "表单",
-          "icon": "&#xe6c6;",
+          "icon": "fa fa-qq",
           "id" :102,
           "url": "demo/form.html"
         },{
           "title": "表格",
-          "icon": "&#xe623;",
+          "icon": "fa fa-book",
           "id" :103,
           "url": "demo/table.html"
         },{
           "title": "选项卡",
-          "icon": "&#xe624;",
+          "icon": "fa fa-qq",
           "id" :104,
           "url": "demo/tab-card.html"
         },{
           "title": "进度条",
-          "icon": "&#xe625;",
+          "icon": "fa fa-renren",
           "id" :105,
           "url": "demo/progress-bar.html"
         },{
           "title": "折叠面板",
-          "icon": "&#xe626;",
+          "icon": "fa fa-html5",
           "id" :106,
           "url": "demo/folding-panel.html"
         },{
           "title": "辅助元素",
-          "icon": "&#xe627;",
+          "icon": "fa fa-book",
           "id" :107,
           "url": "demo/auxiliar.html"
         },{
           "title": "更多示例",
-          "icon": "&#xe628;",
+          "icon": "fa fa-qq",
           "target": true,
           "id" :108,
           "url": "http://www.layui.com/demo/"
@@ -49,52 +49,52 @@
       ]
     },{
       "title": "扩展",
-      "icon": "&#xe628;",
+      "icon": "fa fa-home",
       "url": "",
       "child": [
         {
           "title": "登录页",
-          "icon": "&#xe621;",
+          "icon": "fa fa-book",
           "id":201,
           "url": "demo/login.html"
         },{
           "title": "登录页2",
-          "icon": "&#xe621;",
+          "icon": "fa fa-qq",
           "id":202,
           "url": "demo/login2.html"
         },{
           "title": "注册页",
-          "icon": "&#xe621;",
+          "icon": "fa fa-renren",
           "id":203,
           "url": "demo/register.html"
         },{
           "title": "图表",
-          "icon": "&#xe621;",
+          "icon": "fa fa-html5",
           "id":204,
           "url": "demo/map.html"
         },{
           "title": "添加-修改",
-          "icon": "&#xe621;",
+          "icon": "fa fa-list",
           "id":205,
           "url": "demo/add-edit.html"
         },{
           "title": "data-table 表格",
-          "icon": "&#xe621;",
+          "icon": "fa fa-bar",
           "id":206,
           "url": "demo/data-table.html"
         },{
           "title": "tree-table 树表格",
-          "icon": "&#xe621;",
+          "icon": "fa fa-book",
           "id":207,
           "url": "demo/tree-table.html"
         },{
           "title": "404页",
-          "icon": "&#xe621;",
+          "icon": "fa fa-bar",
           "id":208,
           "url": "demo/404.html"
         },{
           "title": "提示页",
-          "icon": "&#xe621;",
+          "icon": "fa fa-list",
           "id":209,
           "url": "demo/tips.html"
         }

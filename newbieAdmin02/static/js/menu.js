@@ -16,20 +16,20 @@ var menu = {
             if(res.data) {
                 console.log(res.data);
                 $(res.data).each(function(k,v){
-                    /* console.log(v.icon);
-                    console.log(treeStatus); */
+                     console.log(v.icon);
+                    /*console.log(treeStatus); */
                     v.child && treeStatus ? content += '<li class="layui-nav-item layui-nav-itemed">' : content += '<li class="layui-nav-item">' ;
                     if(v.child) {
-                        content += '<a class="" href="javascript:;"><i class="layui-icon">' + v.icon + '</i>' + v.title + '</a><dl class="layui-nav-child">';
+                        content += '<a class="" href="javascript:;"><i class="' + v.icon + '"></i>&nbsp;' + v.title + '</a><dl class="layui-nav-child">';
                         $(v.child).each(function(ko,vo){
                             content += '<dd>';
                             // console.log(vo.target);
                             if(vo.target) {
                                 content += '<a href="'+ vo.url+ '" target="_blank">';
                             } else {
-                                content += '<a href="javascript:" data-url= "' + vo.url + '" data-id="' + vo.id +'">'; 
+                                content += '<a href="javascript:" data-url= "' + vo.url + '" data-id="' + vo.id +'">';
                             }
-                            content += '<i class="layui-icon">' + vo.icon + '</i><span>' + vo.title + '</span></a></dd>';
+                            content += '<i class="' + vo.icon + '"></i><span>&nbsp;' + vo.title + '</span></a></dd>';
                         });
                         content += '</dl>';
                     }
@@ -48,4 +48,4 @@ var menu = {
 }
   //输出test接口
   exports('menu', menu);
-});    
+});
