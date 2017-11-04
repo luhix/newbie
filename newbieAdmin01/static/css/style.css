@@ -1,0 +1,58 @@
+/*左侧*/
+.lu-nav-tree .layui-nav-child a {
+	padding-left: 30px;
+}
+
+
+
+/*内容区域主题布局*/
+.lu-main {
+    margin-top: 0;
+}
+
+/*改变标题颜色*/
+.lu-active{
+    color: #ff0000;
+}
+
+/*去掉首个tab的关闭标签*/
+.lu-main .layui-tab-title li:first-child .layui-tab-close {
+    display: none;
+}
+.lu-main .lu-main-content {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: none;
+}
+.lu-main .lu-tab-switch{
+	    position: absolute;
+	    width: 40px;
+	    height: 40px;
+	    left: 0;
+	    line-height: 40px;
+	    text-align: center;
+	    cursor: pointer;
+	    border-right: 1px solid #e2e2e2;
+	    border-bottom: 1px solid #e2e2e2;
+}
+.lu-main .lu-tab-switch:hover{
+	color: red;
+}
+.lu-main .lu-tab-title{
+	margin-left: 40px;
+}
+.lu-main .lu-main-content div{
+    height: 100%;
+    text-align: center;
+}
+
+.lu-main .lu-main-content .lu-tab-iframe {
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    border: 0;
+}
+.lu-footer{text-align: center;}
